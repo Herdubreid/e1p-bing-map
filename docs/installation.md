@@ -5,14 +5,14 @@ nav_order: 2
 
 ### Install latest build
 
-The package requires [Bing Maps Key](https://www.bingmapsportal.com/) to access the API, so the solution needs to build from the source.
+The package requires [Bing Maps Key](https://www.bingmapsportal.com/) to access the API, so the solution must be build from the source.
 
 ### Build from source
 
 Go to the [Github page](https://github.com/Herdubreid/e1p-bing-map) and either download the source as a zip file or clone with `git`:
 
 ```bash
-$ git clone https://github.com/Herdubreid/e1p-bing-map
+$ git clone https://github.com/Herdubreid/e1p-bing-map.git
 ```
 
 Create a `map-key.json` file under `/src/components/map` with the following format:
